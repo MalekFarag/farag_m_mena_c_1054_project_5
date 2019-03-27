@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden{
+	display: none;
+}
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  min-width: 340px;
+  max-width: 980px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+h1,h2,h3,p{
+	text-align: center;
+}
+
+p{
+	color: #ffffff;
+}
+
+div, nav{
+	background-color: #333333;
+}
+
+@media screen and (min-width: 340px){
+	#header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100px;
+		margin-top: 5px;
+	}
+
+	#header #logo{
+		height: 100%;
+		width: 30%;
+	}
+
+	#header #donate{
+		height: 30%;
+		width: 15%;
+	}
+
+	#header #burger{
+		height: 75%;
+		width: 20%;
+	}
+
+	
+
+	#heroImg{
+		height: 200px;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	#contentArea h2{
+		font-size: 28px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.card{
+		height: 200px;
+		width: 65%;
+		margin-bottom: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.row{
+		display: flex;
+		background-color: #ffffff;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		width: 65%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#contact{
+		height: 150px;
+		width: 50%;
+		margin: 5px;
+
+	}
+
+	#social{
+		height: 140px;
+		width: 25%;
+		margin: 5px;
+	}
+
+	#footerNav{
+		height: 210px;
+		width: 40%;
+		margin: 5px;
+	}
+
+	#legal{
+		height: 140px;
+		width: 25%;
+		margin: 5px;
+	}
+
+}
+
+@media screen and (min-width: 640px){
+
+
+}
